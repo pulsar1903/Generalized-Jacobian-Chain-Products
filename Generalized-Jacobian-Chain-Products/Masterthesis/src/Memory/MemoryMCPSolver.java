@@ -10,7 +10,7 @@ public class MemoryMCPSolver {
     public static long minimumCost = Long.MAX_VALUE;
     public static long memory;
     public static long counter;
-    public static long global_memory = 10; //threshold
+    public static long global_memory = 100; //threshold
     // TODO find a way to store bracketing in Node
     //von private auf public, damit ich das in eine File eintragen kann von einem anderen Package aus//
     public static Node__new bestBracketing;
@@ -155,7 +155,7 @@ public class MemoryMCPSolver {
         //For graph 3
         List<Vertex_> input_g3 = new ArrayList<>();
         List<Vertex_> output_g3 = new ArrayList<>();
-        int edges_g3 = 10;
+        int edges_g3 = 15;
 
         Vertex_ ooo_1 = new Vertex_("L");//R
         Vertex_ o23 = new Vertex_("K");
