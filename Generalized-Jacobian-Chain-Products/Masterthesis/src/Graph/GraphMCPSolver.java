@@ -89,7 +89,7 @@ public class GraphMCPSolver {
             System.out.println("memory costs: " + bestBracketing.memory_costs);
             System.out.println(" ");
             //System.out.println((GraphMCP)bestBracketing.matrices.get(0).edges.toString());
-            System.out.println("Number of pruned nodes : " + counter);
+         //   System.out.println("Number of pruned nodes : " + counter);
 
         }
 
